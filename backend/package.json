@@ -1,0 +1,28 @@
+{
+  "name": "product-dropper-backend",
+  "version": "1.0.0",
+  "description": "Product & Co backend for the product dropper application",
+  "keywords": [
+    "express",
+    "mongodb",
+    "multer"
+  ],
+  "author": "Cécile Journeaux",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "NODE_ENV=dev nodemon ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "multer": "^1.4.2",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}

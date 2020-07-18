@@ -1,0 +1,27 @@
+{
+  "name": "product-dropper-bundle",
+  "version": "1.0.0",
+  "description": "Product & Co full application (wraps both backend and frontend applications)",
+  "keywords": [
+    "react",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Cécile Journeaux",
+  "license": "MIT",
+  "main": "backend/index.js",
+  "scripts": {
+    "clean": "rm -rf frontend/package-lock.json && rm -rf backend/package-lock.json && rm -rf frontend/node_modules && rm -rf backend/node_modules",
+    "build": "npm install --prefix backend && npm install --prefix frontend",
+    "start": "(npm run start:server) & (npm run start:client)",
+    "start:server": "npm run start:dev --prefix backend",
+    "start:client": "npm run start:dev --prefix frontend"
+  },
+  "dependencies": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

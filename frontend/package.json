@@ -1,0 +1,36 @@
+{
+  "name": "product-dropper-frontend",
+  "version": "1.0.0",
+  "description": "Product & Co frontend for the product dropper application",
+  "keywords": [
+    "react"
+  ],
+  "author": "Cécile Journeaux",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "start:dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "0.8.0",
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
+    "@hookform/resolvers": "0.0.6",
+    "axios": "^0.19.2",
+    "emotion-theming": "10.0.27",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.0.7",
+    "react-query": "^2.5.4",
+    "react-scripts": "3.4.1",
+    "yup": "0.29.1"
+  },
+  "devDependencies": {
+    "@hookform/devtools": "^2.0.3",
+    "react-query-devtools": "^2.3.1"
+  }
+}
