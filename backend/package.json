@@ -11,8 +11,9 @@
   "license": "MIT",
   "main": "server.js",
   "scripts": {
+    "setup": "git update-index --skip-worktree .env && git update-index --skip-worktree static/*/.gitkeep",
     "start": "node .",
-    "start:dev": "NODE_ENV=dev nodemon ."
+    "start:dev": "nodemon ."
   },
   "dependencies": {
     "cors": "^2.8.5",
